@@ -55,6 +55,7 @@ main{
     text-align: center;
     align-items: center;
     
+    
 }
 .corpo p{
     font-size: 20px;
@@ -68,29 +69,34 @@ main{
 }
 .menu-foto{
     display:flex;
-    justify-content: space-around;
+    justify-content: center;       
     flex-wrap: wrap;
     padding:20px;
     text-align: center;
+    max-width: 1450px;
+    gap:20px;
+    
 }
 .menu-foto img{
     flex-wrap: wrap;
-    width: 320px;
-    right: 50px;
+    width: 80%;
+    
+
     
 }
 .card-foto{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    gap: 5px;
     
 }
 .descricao{
     width: 300px;
 }
 .descricao h4,p{
-    color:#31241b
+    color:#31241b;
+    border-top: ;
 
 }
 .valor-produto{
@@ -139,7 +145,9 @@ main{
     border: solid #bfa78d 2px; 
     border-radius: 10px;
     margin-bottom: 9px;
-    padding:10px
+    padding:10px;
+    
+    
 }
 h3{
     color:#31241b;
@@ -162,4 +170,21 @@ h3{
     margin: auto;
     margin-top: 30px;
     
+}
+.sobre{
+    font-size:25px;
+    text-align: justify;
+}
+#Sobre-nois{
+    text-transform: uppercase;
+    margin-top:100px
+}
+h4,h3{
+    text-transform: uppercase;
+    
+}
+@media (max-width: 600px) {
+    #Foto_main img{
+        display: none;
+    }
 }
