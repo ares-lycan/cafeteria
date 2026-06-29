@@ -172,7 +172,7 @@ h3{
     
 }
 .sobre{
-    font-size:25px;
+    font-size:100%;
     text-align: justify;
 }
 #Sobre-nois{
@@ -186,5 +186,9 @@ h4,h3{
 @media (max-width: 600px) {
     #Foto_main img{
         display: none;
+    }
+    .sobre p{
+        font-size: 2px;
+
     }
 }
